@@ -12,6 +12,7 @@
 		A326E3A11D1B0D0F00317AFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A326E39F1D1B0D0F00317AFD /* Main.storyboard */; };
 		A326E3A31D1B0D0F00317AFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A326E3A21D1B0D0F00317AFD /* Assets.xcassets */; };
 		A326E3A61D1B0D0F00317AFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A326E3A41D1B0D0F00317AFD /* LaunchScreen.storyboard */; };
+		A326E3B01D1B13AF00317AFD /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A326E3AF1D1B13AF00317AFD /* PersonCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A326E3A21D1B0D0F00317AFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A326E3A51D1B0D0F00317AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A326E3A71D1B0D0F00317AFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A326E3AF1D1B13AF00317AFD /* PersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				A326E39B1D1B0D0F00317AFD /* AppDelegate.swift */,
+				A326E3AF1D1B13AF00317AFD /* PersonCell.swift */,
 				A326E39D1D1B0D0F00317AFD /* ViewController.swift */,
 				A326E39F1D1B0D0F00317AFD /* Main.storyboard */,
 				A326E3A21D1B0D0F00317AFD /* Assets.xcassets */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A326E3B01D1B13AF00317AFD /* PersonCell.swift in Sources */,
 				A326E39E1D1B0D0F00317AFD /* ViewController.swift in Sources */,
 				A326E39C1D1B0D0F00317AFD /* AppDelegate.swift in Sources */,
 			);
